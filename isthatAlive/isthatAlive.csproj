@@ -48,6 +48,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\Annotate_Complete.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -62,16 +65,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutThisProgram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutThisProgram.Designer.cs">
+      <DependentUpon>AboutThisProgram.cs</DependentUpon>
+    </Compile>
     <Compile Include="AppMain.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AppMain.Designer.cs">
       <DependentUpon>AppMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="BeforeStartWarning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BeforeStartWarning.Designer.cs">
+      <DependentUpon>BeforeStartWarning.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutThisProgram.resx">
+      <DependentUpon>AboutThisProgram.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AppMain.resx">
       <DependentUpon>AppMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BeforeStartWarning.resx">
+      <DependentUpon>BeforeStartWarning.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -112,6 +133,50 @@
       <ProductName>Windows Installer 4.5</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Run_16x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save_16x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StatusInformation_16x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StatusStop_16x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Annotate_Complete.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

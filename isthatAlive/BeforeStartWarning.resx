@@ -117,20 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Annotate_Complete" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Annotate_Complete.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Run_16x" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Run_16x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Save_16x" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Save_16x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="StatusInformation_16x" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StatusInformation_16x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="StatusStop_16x" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StatusStop_16x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>사용의 제한 (Restrictions on use)
+
+I. 본 소프트웨어는 웹 사이트에 요청을 발생시킨 뒤, 대상 서버의 응답 여부를 이용하여 사이트의 접속 품질을 주기적으로 측정하는 도구입니다.
+
+II. 제작사는 본 소프트웨어를 다음과 같은 용도로만 사용하는 것을 허용합니다.
+
+ 1. 개발 중인 웹 사이트의 접속 품질 측정 용도
+ 2. 도메인 응답 여부 확인 용도
+
+III. 제작사는 다음과 같은 용도로의 사용은 일체 불허합니다
+
+ 1. 고의적인 접속 장애 발생 용도
+ 2. 제3자의 웹 사이트 또는 그러한 시스템을 구동하는 장비에 물리적/논리적 손해를 끼치기 위한, 또는 그러한 의도가 명백하다고 보이는 행위를 실현하기 위한 용도
+
+IV. 다만, III항에 속하는 행위일지라도, 그러한 구동 목적이 II항의 내용들을 만족시키는 경우 (예를 들어 자체 개발서버의 스트레스 테스트 등)에는 III항의 용도일지라도 제작사는 부분적으로 사용을 허용할 수 있습니다.
+
+본 소프트웨어를 사용하여 발생하는 모든 물리적, 논리적 장애(사용자 및 대상을 가리지 아니함)에 관하여 제작자는 책임을 지지 않으며, 아울러 소프트웨어를 이용하여 발생한 모든 손해사항에 대해서는 사용자가 책임을 져야합니다.
+
+사용자는 상기 제한사항을 확인한 뒤, 위 사항에 동의하지 않을 경우 [동의하지 않음]을 이용하여 소프트웨어 사용을 거부할 수 있습니다.</value>
   </data>
 </root>
